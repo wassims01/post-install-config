@@ -1,104 +1,13 @@
-<p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
-</p>
-
-<h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
-
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
-
-<h2>Environments and Technologies Used</h2>
-
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
-
-<h2>Operating Systems Used </h2>
-
-- Windows 10</b> (21H2)
-
-<h2>Post-Install Configuration Objectives</h2>
-
-- Configure Agents (Workers)
-- Configure Teams
-- Configure Departments (Ticket Visibility)
-- Configure Roles (Grouping Permissions)
-- Acknowledge Agent Panel vs Admin Panel
-
-
-</p>
-
-
---Admin Panel : Used by administrators to configure the system, including roles, departments, teams, SLAs, and other settings--
-</p>
-
-<img src="https://i.imgur.com/5Wk2mmD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/RCZX42W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-</p>
-
---Agent Panel : Used by agents (support staff) to manage tickets assigned to them.--
-
-<img src="https://i.imgur.com/vG1zXlx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-
-</p>
-
---ADMIN ROLES :
-
-
-<img src="https://i.imgur.com/9Qj1rPY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/5N95hnK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-Configure Roles (Grouping Permissions)
-Navigate to: Admin Panel -> Agents -> Roles .
-Create a new role:
-Role Name : Supreme Admin.
-Assign all permissions to this role for full administrative control.
-<p>
-
-
---Adding A role through agent--
-
-
-<img src="https://i.imgur.com/aXAkFrq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-<p>
-
--Adding a Departement :
-
-
-<img src="https://i.imgur.com/exHiTew.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-<img src="https://i.imgur.com/Qj0rPKx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-
-Configure Departments (Ticket Visibility)
-Navigate to: Admin Panel -> Agents -> Departments .
-Create the following departments:
-Help Desk : General support.
-SysAdmins : System administration-related tickets.
-Networking : Networking-related tickets.
-Assign tickets to specific departments based on their visibility and purpose.
-
-<p>
-
-<p>
-
-
-Adding a group :
-<p>
-
-
-<img src="https://i.imgur.com/XRFVJRy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-<p>
---Adding a New helpdesk Agent--
-
-<p>
-
-  
-<img src="https://i.imgur.com/fLR8VsP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+<p align="center"> <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket Logo" style="width: 50%;"/> </p><h1 align="center" style="font-size: 48px;">osTicket - Post-Install Configuration</h1><p style="font-size: 28px;"> This tutorial outlines the post-install configuration of the open-source help desk ticketing system, osTicket. It covers essential steps to configure agents, teams, departments, roles, and more. </p>
+<h2 style="font-size: 40px;">Video Demonstration</h2><p style="font-size: 28px;"> - <strong><a href="https://www.youtube.com">YouTube: How To Configure osTicket, Post-Installation</a></strong> </p>
+<h2 style="font-size: 40px;">Environments and Technologies Used</h2><ul style="font-size: 28px;"> <li><strong>Microsoft Azure</strong> (Virtual Machines/Compute)</li> <li><strong>Remote Desktop</strong></li> <li><strong>Internet Information Services (IIS)</strong></li> </ul>
+<h2 style="font-size: 40px;">Operating Systems Used</h2><p style="font-size: 28px;"> - <strong>Windows 10</strong> (21H2) </p>
+<h2 style="font-size: 40px;">Post-Install Configuration Objectives</h2><ul style="font-size: 28px;"> <li>Configure Agents (Workers)</li> <li>Configure Teams</li> <li>Configure Departments (Ticket Visibility)</li> <li>Configure Roles (Grouping Permissions)</li> <li>Understand the Difference Between Agent Panel and Admin Panel</li> </ul>
+<h2 style="font-size: 40px;">Admin Panel vs. Agent Panel</h2><h3 style="font-size: 36px;">Admin Panel</h3><p style="font-size: 28px;"> The Admin Panel is used by administrators to configure the system, including roles, departments, teams, SLAs, and other settings. </p><p align="center"> <img src="https://i.imgur.com/5Wk2mmD.png" alt="Admin Panel Screenshot" style="width: 80%;"/> <img src="https://i.imgur.com/RCZX42W.png" alt="Admin Panel Screenshot" style="width: 80%;"/> </p>
+<h3 style="font-size: 36px;">Agent Panel</h3><p style="font-size: 28px;"> The Agent Panel is used by agents (support staff) to manage tickets assigned to them. </p><p align="center"> <img src="https://i.imgur.com/vG1zXlx.png" alt="Agent Panel Screenshot" style="width: 80%;"/> </p>
+<h2 style="font-size: 40px;">Configuring Roles</h2><p style="font-size: 28px;"> Roles are used to group permissions for agents. Follow these steps to configure roles: </p><ol style="font-size: 28px;"> <li>Navigate to: <strong>Admin Panel -> Agents -> Roles</strong>.</li> <li>Create a new role: <ul> <li><strong>Role Name</strong>: Supreme Admin</li> <li>Assign all permissions to this role for full administrative control.</li> </ul> </li> </ol><p align="center"> <img src="https://i.imgur.com/9Qj1rPY.png" alt="Configuring Roles Screenshot" style="width: 80%;"/> <img src="https://i.imgur.com/5N95hnK.png" alt="Configuring Roles Screenshot" style="width: 80%;"/> </p>
+<h2 style="font-size: 40px;">Adding a Role Through Agent</h2><p align="center"> <img src="https://i.imgur.com/aXAkFrq.png" alt="Adding a Role Screenshot" style="width: 80%;"/> </p>
+<h2 style="font-size: 40px;">Configuring Departments</h2><p style="font-size: 28px;"> Departments are used to organize tickets based on their visibility and purpose. Follow these steps to configure departments: </p><ol style="font-size: 28px;"> <li>Navigate to: <strong>Admin Panel -> Agents -> Departments</strong>.</li> <li>Create the following departments: <ul> <li><strong>Help Desk</strong>: General support.</li> <li><strong>SysAdmins</strong>: System administration-related tickets.</li> <li><strong>Networking</strong>: Networking-related tickets.</li> </ul> </li> </ol><p align="center"> <img src="https://i.imgur.com/exHiTew.png" alt="Adding a Department Screenshot" style="width: 80%;"/> <img src="https://i.imgur.com/Qj0rPKx.png" alt="Adding a Department Screenshot" style="width: 80%;"/> </p>
+<h2 style="font-size: 40px;">Adding a Group</h2><p align="center"> <img src="https://i.imgur.com/XRFVJRy.png" alt="Adding a Group Screenshot" style="width: 80%;"/> </p>
+<h2 style="font-size: 40px;">Adding a New Help Desk Agent</h2><p align="center"> <img src="https://i.imgur.com/fLR8VsP.png" alt="Adding a New Agent Screenshot" style="width: 80%;"/> </p>
+<p style="font-size: 28px;"> This concludes the post-install configuration of osTicket. Ensure all settings are correctly applied to optimize the ticketing system for your organization. </p>
