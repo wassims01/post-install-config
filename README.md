@@ -34,10 +34,18 @@ Admin/Analyst Login Page :
 
 </p>
 Agent Login page :
-img src="https://i.imgur.com/vG1zXlx.png" height="80%" width="80%" alt="Disk Sanitization Steps
-Admin Roles page :
+<img src="https://i.imgur.com/vG1zXlx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+
+ADMIN ROLES :
 
 <img src="https://i.imgur.com/9Qj1rPY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5N95hnK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Adding A role through agent :
+<img src="https://i.imgur.com/aXAkFrq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 
