@@ -47,6 +47,13 @@ ADMIN ROLES :
 Adding A role through agent :
 <img src="https://i.imgur.com/aXAkFrq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+<p>
+
+Adding a Departement :
+
+<img src="https://i.imgur.com/exHiTew.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 
 
 <h2>Configuration Steps</h2>
