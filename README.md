@@ -22,79 +22,83 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure Agents (Workers)
+- Configure Teams
+- Configure Departments (Ticket Visibility)
+- Configure Roles (Grouping Permissions)
+- Acknowledge Agent Panel vs Admin Panel
+
+
 </p>
-Admin/Analyst Login Page :
+
+
+--Admin Panel : Used by administrators to configure the system, including roles, departments, teams, SLAs, and other settings--
+</p>
+
 <img src="https://i.imgur.com/5Wk2mmD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/RCZX42W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
-Agent Login page :
+
+--Agent Panel : Used by agents (support staff) to manage tickets assigned to them.--
+
 <img src="https://i.imgur.com/vG1zXlx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 </p>
 
-ADMIN ROLES :
+--ADMIN ROLES :
+
 
 <img src="https://i.imgur.com/9Qj1rPY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/5N95hnK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Configure Roles (Grouping Permissions)
+Navigate to: Admin Panel -> Agents -> Roles .
+Create a new role:
+Role Name : Supreme Admin.
+Assign all permissions to this role for full administrative control.
+<p>
 
-Adding A role through agent :
+
+--Adding A role through agent--
+
+
 <img src="https://i.imgur.com/aXAkFrq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <p>
 
-Adding a Departement :
+-Adding a Departement :
+
 
 <img src="https://i.imgur.com/exHiTew.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-<p>
 
 <img src="https://i.imgur.com/Qj0rPKx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
+Configure Departments (Ticket Visibility)
+Navigate to: Admin Panel -> Agents -> Departments .
+Create the following departments:
+Help Desk : General support.
+SysAdmins : System administration-related tickets.
+Networking : Networking-related tickets.
+Assign tickets to specific departments based on their visibility and purpose.
+
 <p>
+
+<p>
+
+
 Adding a group :
 <p>
+
 
 <img src="https://i.imgur.com/XRFVJRy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <p>
-Adding a New helpdesk Agent :
+--Adding a New helpdesk Agent--
+
 <p>
+
+  
 <img src="https://i.imgur.com/fLR8VsP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-
-
-
-
-<h2>Configuration Steps</h2>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
