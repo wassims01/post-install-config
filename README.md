@@ -27,6 +27,19 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Item 3
 - Item 4
 - Item 5
+</p>
+Admin/Analyst Login Page :
+<img src="https://i.imgur.com/5Wk2mmD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RCZX42W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+Agent Login page :
+img src="https://i.imgur.com/vG1zXlx.png" height="80%" width="80%" alt="Disk Sanitization Steps
+Admin Roles page :
+
+<img src="https://i.imgur.com/9Qj1rPY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 
 <h2>Configuration Steps</h2>
 
