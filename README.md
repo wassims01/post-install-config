@@ -53,6 +53,23 @@ Adding a Departement :
 
 <img src="https://i.imgur.com/exHiTew.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+<p>
+
+<img src="https://i.imgur.com/Qj0rPKx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<p>
+Adding a group :
+<p>
+
+<img src="https://i.imgur.com/XRFVJRy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<p>
+Adding a New helpdesk Agent :
+<p>
+<img src="https://i.imgur.com/fLR8VsP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 
 
 
